@@ -6,26 +6,26 @@ except:
         # Set true if its VPS
         IS_VPS = False
 
-        API_HASH = ""
-        API_ID = 0
+        API_HASH = "b603d6056effe5a54130424ebc121eff"
+        API_ID = 15481415
         BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        BASE_URL_OF_BOT = "htto://35.154.184.38:8080"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = 2054179086
+        OWNER_ID = 1472374569
 
         # Google Drive Index Link should include the base dir also See readme for more info
-        GD_INDEX_URL = False
+        GD_INDEX_URL = "https://drive.dextinxd.workers.dev/0:"
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 10
+        EDIT_SLEEP_SECS = 3
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1700000000
+        TG_UP_LIMIT = 2000000000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -37,18 +37,16 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DATABASE_URL = (
-            "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
-        )
+        #DATABASE_URL = ("dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432")
 
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        # DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=db port=5432"
 
         # MEGA CONFIG
-        MEGA_ENABLE = False
-        MEGA_API = ""
-        MEGA_UNAME = None
-        MEGA_PASS = None
+        MEGA_ENABLE = True
+        MEGA_API = "WHg22bKZ"
+        MEGA_UNAME = "dextinmeerbts@gmail.com"
+        MEGA_PASS = "Zaxscd@123"
 
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
